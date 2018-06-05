@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 
 export default class Mu extends Component {
 	render() {
@@ -11,6 +11,26 @@ export default class Mu extends Component {
 				<View style={styles.titleContainer}>
 					<Text style={styles.title}>Memorial Union</Text>
 				</View>
+				<View style={styles.contentContainer}>
+				</View>
+				<View style={styles.selectionContainer}>
+					<Text style={styles.selectionTitle}>Please select your spot</Text>
+					<Text style={styles.selectionSubtitle}>Nearby spots available:</Text>
+
+					<View style={styles.spotContainer}>
+						<TouchableOpacity style={styles.buttonContainer}>
+							<Text style={styles.buttonText}>Spot 1</Text>
+						</TouchableOpacity>
+
+						<TouchableOpacity style={styles.buttonContainer}>
+							<Text style={styles.buttonText}>Spot 2</Text>
+						</TouchableOpacity>
+
+						<TouchableOpacity style={styles.buttonContainer}>
+							<Text style={styles.buttonText}>Spot 3</Text>
+						</TouchableOpacity>
+					</View>
+				</View>
 			</View>
 		);
 	}
@@ -18,6 +38,7 @@ export default class Mu extends Component {
 
 const styles = StyleSheet.create({
 	container: {
+		flex: 1,
 		justifyContent: 'center'
 	},
 	logoContainer: {
@@ -29,6 +50,22 @@ const styles = StyleSheet.create({
 		padding: 20,
 	},
 	contentContainer: {
+		height: 450
+	},
+	selectionContainer: {
+		backgroundColor: '#EB9532',
+		flexGrow: 1,
+		padding: 20,
+	},
+	spotContainer: {
+		flexDirection: 'row'
+	},
+	buttonContainer: {
+		backgroundColor: 'white',
+		width: 100,
+		paddingVertical: 15,
+		marginRight: 20,
+		borderRadius: 20
 	},
 	logo: {
 		color: 'white',
@@ -40,4 +77,18 @@ const styles = StyleSheet.create({
 		textAlign: 'center',
 		fontSize: 20
 	},
+	selectionTitle: {
+		color: 'white',
+		fontSize: 20,
+		marginBottom: 10
+	},
+	selectionSubtitle: {
+		color: 'white',
+		fontSize: 18,
+		marginBottom: 10
+	},
+	buttonText: {
+		textAlign: 'center',
+		color: '#EB9532'
+	}
 });
