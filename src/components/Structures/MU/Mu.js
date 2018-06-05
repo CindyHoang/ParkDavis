@@ -80,11 +80,12 @@ const styles = StyleSheet.create({
 	selectionTitle: {
 		color: 'white',
 		fontSize: 20,
-		marginBottom: 10
+		marginBottom: 10,
+		textAlign: 'center'
 	},
 	selectionSubtitle: {
 		color: 'white',
-		fontSize: 18,
+		fontSize: 15,
 		marginBottom: 10
 	},
 	buttonText: {
