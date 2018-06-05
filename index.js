@@ -7,4 +7,4 @@ import Home from './src/components/Home/Home';
 import Arc from './src/components/Structures/ARC/Arc';
 import Mu from './src/components/Structures/MU/Mu';
 
-AppRegistry.registerComponent('ParkDavis', () => Login);
+AppRegistry.registerComponent('ParkDavis', () => Home);
