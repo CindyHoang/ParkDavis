@@ -13,6 +13,9 @@ import {
 } from 'react-native';
 import Splash from './Splash';
 import Login from './src/components/Login/Login';
+import Home from './src/components/Home/Home';
+import Arc from './src/components/Structures/ARC/Arc';
+import Mu from './src/components/Structures/MU/Mu';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
