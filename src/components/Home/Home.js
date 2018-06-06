@@ -11,9 +11,19 @@ export default class Home extends Component {
 				<View style={styles.contentContainer}>
 					<TouchableOpacity style={styles.buttonContainer}>
 						<Text style={styles.buttonText}>Mu</Text>
+						<View style={styles.informationContainer}>
+							<Text style={styles.informationText1}>70%</Text>
+							<Text style={styles.informationText1}>Full</Text>
+							<Text style={styles.informationText2}>300 Available Parking Spaces</Text>
+						</View>
 					</TouchableOpacity>
 					<TouchableOpacity style={styles.buttonContainer}>
 						<Text style={styles.buttonText}>Arc</Text>
+						<View style={styles.informationContainer}>
+							<Text style={styles.informationText1}>60%</Text>
+							<Text style={styles.informationText1}>Full</Text>
+							<Text style={styles.informationText2}>400 Available Parking Spaces</Text>
+						</View>
 					</TouchableOpacity>
 				</View>
 			</View>
@@ -40,22 +50,42 @@ const styles = StyleSheet.create({
 	buttonContainer: {
 		borderRadius: 10,
 		borderColor: '#EB9532',
-		borderWidth: 3,
+		borderWidth: 2,
 		height: 200,
 		width: 300,
 		margin: 20,
-		padding: 10
+		paddingTop: 10
 	},
 	buttonText: {
 		textAlign: 'center',
-		color: '#EB9532',
-		fontWeight: '700',
+		color: '#000000',
+		fontWeight: '600',
 		fontSize: 30
 	},
 	title: {
 		color: 'white',
 		textAlign: 'center',
-		fontSize: 20,
+		fontSize: 22,
 		fontWeight: 'bold'
+	},
+	informationContainer: {
+		backgroundColor: '#EB9532',
+		alignItems: 'center',
+		flexGrow: 1,
+		justifyContent: 'center'
+	},
+	informationText1: {
+		textAlign: 'center',
+		color: '#ffffff',
+		fontWeight: '700',
+		fontSize: 30
+	},
+	informationText2: {
+		textAlign: 'center',
+		//height: 50,
+		color: '#ffffff',
+		fontWeight: '700',
+		fontSize: 20,
+		marginTop: 20
 	}
 });
