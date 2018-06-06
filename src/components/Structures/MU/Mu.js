@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import MuMap from './Map';
 
 export default class Mu extends Component {
 	render() {
@@ -12,6 +13,7 @@ export default class Mu extends Component {
 					<Text style={styles.title}>Memorial Union</Text>
 				</View>
 				<View style={styles.contentContainer}>
+					<MuMap />
 				</View>
 				<View style={styles.selectionContainer}>
 					<Text style={styles.selectionTitle}>Please select your spot</Text>
@@ -43,18 +45,19 @@ const styles = StyleSheet.create({
 	},
 	logoContainer: {
 		backgroundColor: '#EB9532',
-		padding: 20
+		padding: 30
 	},
 	titleContainer: {
 		backgroundColor: 'white',
 		padding: 20,
 	},
 	contentContainer: {
-		height: 450
+		backgroundColor: 'rgba(235,149,50,0.2)',
+		flexGrow: 1
 	},
 	selectionContainer: {
 		backgroundColor: '#EB9532',
-		flexGrow: 1,
+		height: 160,
 		padding: 20,
 	},
 	spotContainer: {
@@ -70,18 +73,21 @@ const styles = StyleSheet.create({
 	logo: {
 		color: 'white',
 		textAlign: 'center',
-		fontSize: 20
+		fontSize: 20,
+		fontWeight: 'bold'
 	},
 	title: {
 		color: '#EB9532',
 		textAlign: 'center',
-		fontSize: 20
+		fontSize: 20,
+		fontWeight: 'bold'
 	},
 	selectionTitle: {
 		color: 'white',
 		fontSize: 20,
 		marginBottom: 10,
-		textAlign: 'center'
+		textAlign: 'center',
+		fontWeight: 'bold'
 	},
 	selectionSubtitle: {
 		color: 'white',

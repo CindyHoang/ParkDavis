@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import ArcMap from './Map';
 
-export default class Arc extends Component {
+export default class Map extends Component {
 	render() {
 		return(
 			<View style={styles.container}>
