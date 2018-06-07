@@ -30,28 +30,28 @@ export default class Mu extends Component {
 
 					<View style={styles.spotContainer}>
 						<ScrollView horizontal={true}>
-							<TouchableOpacity style={styles.buttonContainer}>
-								<Text style={styles.buttonText}>Spot 1</Text>
+							<TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navigation.navigate('HomeMu')}>
+								<Text style={styles.buttonText}>Level 1 C12</Text>
 							</TouchableOpacity>
 
-							<TouchableOpacity style={styles.buttonContainer}>
-								<Text style={styles.buttonText}>Spot 2</Text>
+							<TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navigation.navigate('HomeMu')}>
+								<Text style={styles.buttonText}>Level 1 C15</Text>
 							</TouchableOpacity>
 
-							<TouchableOpacity style={styles.buttonContainer}>
-								<Text style={styles.buttonText}>Spot 3</Text>
+							<TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navigation.navigate('HomeMu')}>
+								<Text style={styles.buttonText}>Level 2 A2</Text>
 							</TouchableOpacity>
 
-							<TouchableOpacity style={styles.buttonContainer}>
-								<Text style={styles.buttonText}>Spot 1</Text>
+							<TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navigation.navigate('HomeMu')}>
+								<Text style={styles.buttonText}>Level 2 A6</Text>
 							</TouchableOpacity>
 
-							<TouchableOpacity style={styles.buttonContainer}>
-								<Text style={styles.buttonText}>Spot 2</Text>
+							<TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navigation.navigate('HomeMu')}>
+								<Text style={styles.buttonText}>Level 2 A13</Text>
 							</TouchableOpacity>
 
-							<TouchableOpacity style={styles.buttonContainer}>
-								<Text style={styles.buttonText}>Spot 3</Text>
+							<TouchableOpacity style={styles.buttonContainer} onPress={() => this.props.navigation.navigate('HomeMu')}>
+								<Text style={styles.buttonText}>Level 2 A15</Text>
 							</TouchableOpacity>
 						</ScrollView>
 					</View>
@@ -128,7 +128,8 @@ const styles = StyleSheet.create({
 	},
 	buttonText: {
 		textAlign: 'center',
-		color: '#EB9532'
+		color: '#EB9532',
+		fontWeight: 'bold'
 	},
 	leftContainer: {
 		flex: 1,
