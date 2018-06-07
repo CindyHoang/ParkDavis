@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
-
+import { DrawerNavigator, StackNavigator } from 'react-navigation';
 export default class Home extends Component {
 	render() {
 		return(
@@ -9,7 +9,9 @@ export default class Home extends Component {
 					<Text style={styles.title}>Where would you like to park today?</Text>
 				</View>
 				<View style={styles.contentContainer}>
-					<TouchableOpacity style={styles.buttonContainer}>
+					<TouchableOpacity
+						onPress={() => this.props.navigation.navigate('MuScreen')}
+						style={styles.buttonContainer}>
 						<Text style={styles.buttonText}>Mu</Text>
 						<View style={styles.informationContainer}>
 							<Text style={styles.informationText1}>70%</Text>
@@ -17,7 +19,9 @@ export default class Home extends Component {
 							<Text style={styles.informationText2}>300 Available Parking Spaces</Text>
 						</View>
 					</TouchableOpacity>
-					<TouchableOpacity style={styles.buttonContainer}>
+					<TouchableOpacity
+						onPress={() => this.props.navigation.navigate('ArcScreen')}
+						style={styles.buttonContainer}>
 						<Text style={styles.buttonText}>Arc</Text>
 						<View style={styles.informationContainer}>
 							<Text style={styles.informationText1}>60%</Text>

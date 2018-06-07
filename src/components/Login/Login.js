@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Image, Text, KeyboardAvoidingView } from 'react-native';
 import LoginForm from './LoginForm';
+import { StackNavigator } from 'react-navigation';
 
 export default class Login extends Component {
+	static navigationOptions = {
+		title: 'Login'
+	};
 	render() {
 		return (
 			<KeyboardAvoidingView behavior="padding" style={styles.container}>
 				<View style={styles.logoContainer}>
-					<Image
-						style={styles.logo}
-						source={require('../../images/car.png')}/>
 
-					<Text style={styles.title}>Find your parking spot easier</Text>
+					<Text style={styles.title}>ParkDavis</Text>
 				</View>
 				<View style={styles.formContainer}>
-					<LoginForm />
+					<LoginForm navigation={this.props.navigation}/>
 				</View>
 			</KeyboardAvoidingView>
 		);
@@ -40,9 +41,9 @@ const styles = StyleSheet.create({
 	},
 	title: {
 		color: 'white',
+		fontSize: 35,
+		fontWeight: 'bold',
 		marginTop: 10,
-		width: 160,
 		textAlign: 'center',
-		opacity: 0.9
 	}
 });

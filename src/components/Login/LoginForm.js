@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableOpacity, StatusBar } from 'react-native';
+import { DrawerNavigator, StackNavigator } from 'react-navigation';
 
-export default class LoginForm extends Component {
-	render() {
+const LoginForm = ({ navigation }) => {
 		return(
 			<View style={styles.container}>
 				<StatusBar barStyle="light-content" />
@@ -24,12 +24,13 @@ export default class LoginForm extends Component {
 					ref={(input) => this.passwordInput = input}
 					/>
 
-				<TouchableOpacity style={styles.buttonContainer}>
+				<TouchableOpacity
+					onPress={() => navigation.navigate('HomeScreen')}
+					style={styles.buttonContainer}>
 					<Text style={styles.buttonText}>LOGIN</Text>
 				</TouchableOpacity>
 			</View>
 		);
-	}
 }
 
 const styles = StyleSheet.create({
@@ -55,3 +56,5 @@ const styles = StyleSheet.create({
 		fontWeight: '700'
 	}
 });
+
+export default LoginForm;

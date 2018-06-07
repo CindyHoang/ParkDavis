@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import MuMap from './Map';
+import { StackNavigator } from 'react-navigation';
 
 export default class Mu extends Component {
+	static navigationOptions = {
+		title: 'Memorial Union'
+	};
 	render() {
 		return(
 			<View style={styles.container}>
 				<View style={styles.logoContainer}>
-					<Text style={styles.logo}>ParkDavis</Text>
+					<Text style={styles.logo} onPress={() => this.props.navigation.navigate('HomeScreen')}>ParkDavis</Text>
 				</View>
 				<View style={styles.titleContainer}>
 					<Text style={styles.title}>Memorial Union</Text>

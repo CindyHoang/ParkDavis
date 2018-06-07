@@ -11,11 +11,36 @@ import {
   Text,
   View
 } from 'react-native';
+import { DrawerNavigator, StackNavigator } from 'react-navigation';
 import Splash from './Splash';
 import Login from './src/components/Login/Login';
 import Home from './src/components/Home/Home';
 import Arc from './src/components/Structures/ARC/Arc';
 import Mu from './src/components/Structures/MU/Mu';
+
+const MyApp = DrawerNavigator({
+  LoginScreen: {
+    screen: Login
+  },
+  HomeScreen: {
+    screen: Home
+  },
+  MuScreen: {
+    screen: Mu
+  },
+  ArcScreen: {
+    screen: Arc
+  }
+})
+
+const DrawerNavigation = StackNavigator({
+  DrawerStack: { screen: MyApp }
+}, {
+  headerMode: 'float',
+  navigationOptions: ({navigation}) => ({
+    headerLeft: <Text onPress={() => navigation.navigate('DrawerOpen')}>Menu</Text>
+  })
+})
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -37,7 +62,7 @@ export default class App extends Component<Props> {
     this._mounted = true;
     setTimeout(() => {
       this.setTimePassed();
-    }, 1000);
+    }, 1500);
   }
 
   componentWillUnmount() {
@@ -52,7 +77,7 @@ export default class App extends Component<Props> {
     if (!this.state.timePassed) {
       return <Splash />
     } else {
-      return <Login />
+      return <MyApp />
     }
   }
 }

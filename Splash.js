@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 export default class Splash extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { timer: 0 };
-		setInterval(() => {
-			this.setState({ timer: this.state.timer + 1 })
-		}, 1000);
 	}
 
 	render() {
 		return (
 			<View style={styles.wrapper}>
-				<Text style={styles.title}>ParkDavis</Text>
+				<Image
+					style={styles.logo}
+					source={require('./src/images/car.png')}/>
 			</View>
 		);
 	}
@@ -33,5 +31,9 @@ const styles = StyleSheet.create({
 	subtitle: {
 		color: 'white',
 		fontWeight: '200'
-	}
+	},
+	logo: {
+		width: 100,
+		height: 100
+	},
 });

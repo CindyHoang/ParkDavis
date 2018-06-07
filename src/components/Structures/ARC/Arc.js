@@ -7,7 +7,7 @@ export default class Arc extends Component {
 		return(
 			<View style={styles.container}>
 				<View style={styles.logoContainer}>
-					<Text style={styles.logo}>ParkDavis</Text>
+					<Text style={styles.logo} onPress={() => this.props.navigation.navigate('HomeScreen')}>ParkDavis</Text>
 				</View>
 				<View style={styles.titleContainer}>
 					<Text style={styles.title}>ARC</Text>
