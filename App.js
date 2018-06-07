@@ -17,6 +17,7 @@ import Login from './src/components/Login/Login';
 import Home from './src/components/Home/Home';
 import Arc from './src/components/Structures/ARC/Arc';
 import Mu from './src/components/Structures/MU/Mu';
+import HomeSuccess from './src/components/Structures/MU/HomeSuccess';
 
 const MyApp = DrawerNavigator({
   LoginScreen: {
@@ -30,6 +31,9 @@ const MyApp = DrawerNavigator({
   },
   ArcScreen: {
     screen: Arc
+  },
+  HomeYay: {
+    screen: HomeSuccess
   }
 })
 

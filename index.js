@@ -6,6 +6,7 @@ import Login from './src/components/Login/Login';
 import Home from './src/components/Home/Home';
 import Arc from './src/components/Structures/ARC/Arc';
 import Mu from './src/components/Structures/MU/Mu';
+import Bubble from './src/components/Structures/MU/HomeSuccess';
 
 AppRegistry.registerComponent('ParkDavis', () => App);
 YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);

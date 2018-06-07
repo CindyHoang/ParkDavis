@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, StatusBar } from 'react-native';
 import { DrawerNavigator, StackNavigator } from 'react-navigation';
 export default class Home extends Component {
 	render() {
 		return(
 			<View style={styles.container}>
+				<StatusBar barStyle="light-content" />
 				<View style={styles.logoContainer}>
 					<Text style={styles.title}>Where would you like to park today?</Text>
 				</View>

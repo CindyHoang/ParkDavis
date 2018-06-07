@@ -1372,7 +1372,7 @@ export default class Map extends Component {
 
 const styles = StyleSheet.create({
 	container: {
-		padding: 5
+		padding: 10
 	},
 	levelContainer: {
 		flex: 1
@@ -1417,5 +1417,6 @@ const styles = StyleSheet.create({
 	},
 	levelText: {
 		fontWeight: 'bold',
+		fontSize: 15
 	}
 });

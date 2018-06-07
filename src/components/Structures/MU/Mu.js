@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, ScrollView, StatusBar } from 'react-native';
 import MuMap from './Map';
 import { StackNavigator } from 'react-navigation';
 
@@ -10,14 +10,19 @@ export default class Mu extends Component {
 	render() {
 		return(
 			<View style={styles.container}>
+				<StatusBar barStyle="light-content" />
 				<View style={styles.logoContainer}>
+					<View style={styles.leftContainer}>
+						<Text style={styles.logoback} onPress={() => this.props.navigation.navigate('HomeScreen')}>Back</Text>
+					</View>
 					<Text style={styles.logo} onPress={() => this.props.navigation.navigate('HomeScreen')}>ParkDavis</Text>
+					<View style={styles.rightContainer}></View>
 				</View>
 				<View style={styles.titleContainer}>
 					<Text style={styles.title}>Memorial Union</Text>
 				</View>
 				<View style={styles.contentContainer}>
-					<MuMap />
+					<MuMap navigation={this.props.navigation}/>
 				</View>
 				<View style={styles.selectionContainer}>
 					<Text style={styles.selectionTitle}>Please select your spot</Text>
@@ -63,7 +68,10 @@ const styles = StyleSheet.create({
 	},
 	logoContainer: {
 		backgroundColor: '#EB9532',
-		padding: 30
+		justifyContent: 'space-between',
+		padding: 25,
+		flexDirection: 'row',
+		alignItems: 'center'
 	},
 	titleContainer: {
 		backgroundColor: 'white',
@@ -94,6 +102,12 @@ const styles = StyleSheet.create({
 		fontSize: 20,
 		fontWeight: 'bold'
 	},
+	logoback: {
+		color: 'white',
+		textAlign: 'left',
+		fontSize: 15,
+		fontWeight: 'bold'
+	},
 	title: {
 		color: '#EB9532',
 		textAlign: 'center',
@@ -115,5 +129,15 @@ const styles = StyleSheet.create({
 	buttonText: {
 		textAlign: 'center',
 		color: '#EB9532'
+	},
+	leftContainer: {
+		flex: 1,
+		flexDirection: 'row',
+		justifyContent: 'flex-start'
+	},
+	rightContainer: {
+		flex: 1,
+		flexDirection: 'row',
+		justifyContent: 'flex-end'
 	}
 });
