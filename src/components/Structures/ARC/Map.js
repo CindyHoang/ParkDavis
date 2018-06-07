@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import {PagerTabIndicator, IndicatorViewPager, PagerTitleIndicator, PagerDotIndicator} from 'rn-viewpager';
 
-export default class Map extends Component {
-	render() {
+const Map = ({ navigation }) => {
 		return(
 			<View style={styles.container}>
 				<View style={styles.levelContainer}>
@@ -16,7 +15,7 @@ export default class Map extends Component {
 					<View style={styles.mapRowContainer}>
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
-								<TouchableOpacity style={styles.verticalSlot}>
+								<TouchableOpacity style={styles.verticalSlot} onPress={() => navigation.navigate('HomeYay')}>
 									<Text style={styles.slotText}>A1</Text>
 								</TouchableOpacity>
 							</View>
@@ -281,6 +280,7 @@ export default class Map extends Component {
 				</View>
 				</View>
 
+				<View>
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 2</Text>
 					<View style={styles.mapRowContainer}>
@@ -551,6 +551,7 @@ export default class Map extends Component {
 				</View>
 				</View>
 
+				<View>
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 3</Text>
 					<View style={styles.mapRowContainer}>
@@ -821,6 +822,7 @@ export default class Map extends Component {
 				</View>
 				</View>
 
+				<View>
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 4</Text>
 					<View style={styles.mapRowContainer}>
@@ -1090,7 +1092,7 @@ export default class Map extends Component {
 					</View>
 				</View>
 				</View>
-
+				<View>
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 5</Text>
 					<View style={styles.mapRowContainer}>
@@ -1364,7 +1366,6 @@ export default class Map extends Component {
 				</View>
 			</View>
 		);
-	}
 }
 
 const styles = StyleSheet.create({
@@ -1417,3 +1418,5 @@ const styles = StyleSheet.create({
 		fontSize: 15
 	}
 });
+
+export default Map;
