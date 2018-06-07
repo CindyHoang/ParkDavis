@@ -11,3 +11,4 @@ import Bubble from './src/components/Structures/MU/HomeSuccess';
 AppRegistry.registerComponent('ParkDavis', () => App);
 YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
 YellowBox.ignoreWarnings(['Warning: Can', 'Module RCTImageLoader']);
+YellowBox.ignoreWarnings(['Class RCTCxxModule was not exported', 'Module RCTImageLoader']);
