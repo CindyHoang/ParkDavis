@@ -105,42 +105,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A17</Text>
+									<Text style={styles.slotText}>B1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A18</Text>
+									<Text style={styles.slotText}>B2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A19</Text>
+									<Text style={styles.slotText}>B3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A20</Text>
+									<Text style={styles.slotText}>B4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A21</Text>
+									<Text style={styles.slotText}>B5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A22</Text>
+									<Text style={styles.slotText}>B6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A23</Text>
+									<Text style={styles.slotText}>B7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A24</Text>
+									<Text style={styles.slotText}>B8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -150,42 +150,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A25</Text>
+									<Text style={styles.slotText}>B9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A26</Text>
+									<Text style={styles.slotText}>B10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A27</Text>
+									<Text style={styles.slotText}>B11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A28</Text>
+									<Text style={styles.slotText}>B12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A29</Text>
+									<Text style={styles.slotText}>B13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A30</Text>
+									<Text style={styles.slotText}>B14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A31</Text>
+									<Text style={styles.slotText}>B15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A32</Text>
+									<Text style={styles.slotText}>B16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -193,42 +193,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A33</Text>
+									<Text style={styles.slotText}>C1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A34</Text>
+									<Text style={styles.slotText}>C2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A35</Text>
+									<Text style={styles.slotText}>C3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A36</Text>
+									<Text style={styles.slotText}>C4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A37</Text>
+									<Text style={styles.slotText}>C5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A38</Text>
+									<Text style={styles.slotText}>C6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A39</Text>
+									<Text style={styles.slotText}>C7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A40</Text>
+									<Text style={styles.slotText}>C8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -238,42 +238,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A41</Text>
+									<Text style={styles.slotText}>C9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A42</Text>
+									<Text style={styles.slotText}>C10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A43</Text>
+									<Text style={styles.slotText}>C11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A44</Text>
+									<Text style={styles.slotText}>C12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A45</Text>
+									<Text style={styles.slotText}>C13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A46</Text>
+									<Text style={styles.slotText}>C14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A47</Text>
+									<Text style={styles.slotText}>C15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A48</Text>
+									<Text style={styles.slotText}>C16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -281,7 +281,6 @@ export default class Map extends Component {
 				</View>
 				</View>
 
-				<View>
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 2</Text>
 					<View style={styles.mapRowContainer}>
@@ -376,42 +375,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A17</Text>
+									<Text style={styles.slotText}>B1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A18</Text>
+									<Text style={styles.slotText}>B2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A19</Text>
+									<Text style={styles.slotText}>B3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A20</Text>
+									<Text style={styles.slotText}>B4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A21</Text>
+									<Text style={styles.slotText}>B5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A22</Text>
+									<Text style={styles.slotText}>B6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A23</Text>
+									<Text style={styles.slotText}>B7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A24</Text>
+									<Text style={styles.slotText}>B8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -421,42 +420,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A25</Text>
+									<Text style={styles.slotText}>B9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A26</Text>
+									<Text style={styles.slotText}>B10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A27</Text>
+									<Text style={styles.slotText}>B11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A28</Text>
+									<Text style={styles.slotText}>B12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A29</Text>
+									<Text style={styles.slotText}>B13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A30</Text>
+									<Text style={styles.slotText}>B14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A31</Text>
+									<Text style={styles.slotText}>B15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A32</Text>
+									<Text style={styles.slotText}>B16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -464,42 +463,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A33</Text>
+									<Text style={styles.slotText}>C1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A34</Text>
+									<Text style={styles.slotText}>C2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A35</Text>
+									<Text style={styles.slotText}>C3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A36</Text>
+									<Text style={styles.slotText}>C4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A37</Text>
+									<Text style={styles.slotText}>C5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A38</Text>
+									<Text style={styles.slotText}>C6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A39</Text>
+									<Text style={styles.slotText}>C7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A40</Text>
+									<Text style={styles.slotText}>C8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -509,42 +508,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A41</Text>
+									<Text style={styles.slotText}>C9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A42</Text>
+									<Text style={styles.slotText}>C10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A43</Text>
+									<Text style={styles.slotText}>C11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A44</Text>
+									<Text style={styles.slotText}>C12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A45</Text>
+									<Text style={styles.slotText}>C13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A46</Text>
+									<Text style={styles.slotText}>C14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A47</Text>
+									<Text style={styles.slotText}>C15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A48</Text>
+									<Text style={styles.slotText}>C16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -552,7 +551,6 @@ export default class Map extends Component {
 				</View>
 				</View>
 
-				<View>
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 3</Text>
 					<View style={styles.mapRowContainer}>
@@ -647,42 +645,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A17</Text>
+									<Text style={styles.slotText}>B1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A18</Text>
+									<Text style={styles.slotText}>B2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A19</Text>
+									<Text style={styles.slotText}>B3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A20</Text>
+									<Text style={styles.slotText}>B4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A21</Text>
+									<Text style={styles.slotText}>B5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A22</Text>
+									<Text style={styles.slotText}>B6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A23</Text>
+									<Text style={styles.slotText}>B7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A24</Text>
+									<Text style={styles.slotText}>B8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -692,42 +690,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A25</Text>
+									<Text style={styles.slotText}>B9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A26</Text>
+									<Text style={styles.slotText}>B10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A27</Text>
+									<Text style={styles.slotText}>B11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A28</Text>
+									<Text style={styles.slotText}>B12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A29</Text>
+									<Text style={styles.slotText}>B13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A30</Text>
+									<Text style={styles.slotText}>B14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A31</Text>
+									<Text style={styles.slotText}>B15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A32</Text>
+									<Text style={styles.slotText}>B16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -735,42 +733,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A33</Text>
+									<Text style={styles.slotText}>C1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A34</Text>
+									<Text style={styles.slotText}>C2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A35</Text>
+									<Text style={styles.slotText}>C3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A36</Text>
+									<Text style={styles.slotText}>C4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A37</Text>
+									<Text style={styles.slotText}>C5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A38</Text>
+									<Text style={styles.slotText}>C6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A39</Text>
+									<Text style={styles.slotText}>C7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A40</Text>
+									<Text style={styles.slotText}>C8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -780,42 +778,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A41</Text>
+									<Text style={styles.slotText}>C9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A42</Text>
+									<Text style={styles.slotText}>C10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A43</Text>
+									<Text style={styles.slotText}>C11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A44</Text>
+									<Text style={styles.slotText}>C12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A45</Text>
+									<Text style={styles.slotText}>C13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A46</Text>
+									<Text style={styles.slotText}>C14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A47</Text>
+									<Text style={styles.slotText}>C15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A48</Text>
+									<Text style={styles.slotText}>C16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -823,7 +821,6 @@ export default class Map extends Component {
 				</View>
 				</View>
 
-				<View>
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 4</Text>
 					<View style={styles.mapRowContainer}>
@@ -918,42 +915,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A17</Text>
+									<Text style={styles.slotText}>B1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A18</Text>
+									<Text style={styles.slotText}>B2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A19</Text>
+									<Text style={styles.slotText}>B3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A20</Text>
+									<Text style={styles.slotText}>B4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A21</Text>
+									<Text style={styles.slotText}>B5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A22</Text>
+									<Text style={styles.slotText}>B6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A23</Text>
+									<Text style={styles.slotText}>B7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A24</Text>
+									<Text style={styles.slotText}>B8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -963,42 +960,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A25</Text>
+									<Text style={styles.slotText}>B9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A26</Text>
+									<Text style={styles.slotText}>B10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A27</Text>
+									<Text style={styles.slotText}>B11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A28</Text>
+									<Text style={styles.slotText}>B12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A29</Text>
+									<Text style={styles.slotText}>B13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A30</Text>
+									<Text style={styles.slotText}>B14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A31</Text>
+									<Text style={styles.slotText}>B15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A32</Text>
+									<Text style={styles.slotText}>B16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -1006,42 +1003,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A33</Text>
+									<Text style={styles.slotText}>C1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A34</Text>
+									<Text style={styles.slotText}>C2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A35</Text>
+									<Text style={styles.slotText}>C3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A36</Text>
+									<Text style={styles.slotText}>C4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A37</Text>
+									<Text style={styles.slotText}>C5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A38</Text>
+									<Text style={styles.slotText}>C6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A39</Text>
+									<Text style={styles.slotText}>C7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A40</Text>
+									<Text style={styles.slotText}>C8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -1051,49 +1048,49 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A41</Text>
+									<Text style={styles.slotText}>C9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A42</Text>
+									<Text style={styles.slotText}>C10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A43</Text>
+									<Text style={styles.slotText}>C11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A44</Text>
+									<Text style={styles.slotText}>C12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A45</Text>
+									<Text style={styles.slotText}>C13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A46</Text>
+									<Text style={styles.slotText}>C14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A47</Text>
+									<Text style={styles.slotText}>C15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A48</Text>
+									<Text style={styles.slotText}>C16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
 					</View>
 				</View>
 				</View>
-				<View>
+
 				<View style={styles.mapContainer}>
 					<Text style={styles.levelText}>Level 5</Text>
 					<View style={styles.mapRowContainer}>
@@ -1188,42 +1185,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A17</Text>
+									<Text style={styles.slotText}>B1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A18</Text>
+									<Text style={styles.slotText}>B2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A19</Text>
+									<Text style={styles.slotText}>B3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A20</Text>
+									<Text style={styles.slotText}>B4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A21</Text>
+									<Text style={styles.slotText}>B5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A22</Text>
+									<Text style={styles.slotText}>B6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A23</Text>
+									<Text style={styles.slotText}>B7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A24</Text>
+									<Text style={styles.slotText}>B8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -1233,42 +1230,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A25</Text>
+									<Text style={styles.slotText}>B9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A26</Text>
+									<Text style={styles.slotText}>B10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A27</Text>
+									<Text style={styles.slotText}>B11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A28</Text>
+									<Text style={styles.slotText}>B12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A29</Text>
+									<Text style={styles.slotText}>B13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A30</Text>
+									<Text style={styles.slotText}>B14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A31</Text>
+									<Text style={styles.slotText}>B15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A32</Text>
+									<Text style={styles.slotText}>B16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -1276,42 +1273,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A33</Text>
+									<Text style={styles.slotText}>C1</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A34</Text>
+									<Text style={styles.slotText}>C2</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A35</Text>
+									<Text style={styles.slotText}>C3</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.unavailableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A36</Text>
+									<Text style={styles.slotText}>C4</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A37</Text>
+									<Text style={styles.slotText}>C5</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A38</Text>
+									<Text style={styles.slotText}>C6</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A39</Text>
+									<Text style={styles.slotText}>C7</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A40</Text>
+									<Text style={styles.slotText}>C8</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
@@ -1321,42 +1318,42 @@ export default class Map extends Component {
 						<View style={styles.mapRow}>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A41</Text>
+									<Text style={styles.slotText}>C9</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A42</Text>
+									<Text style={styles.slotText}>C10</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A43</Text>
+									<Text style={styles.slotText}>C11</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A44</Text>
+									<Text style={styles.slotText}>C12</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A45</Text>
+									<Text style={styles.slotText}>C13</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A46</Text>
+									<Text style={styles.slotText}>C14</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A47</Text>
+									<Text style={styles.slotText}>C15</Text>
 								</TouchableOpacity>
 							</View>
 							<View style={styles.availableSlot}>
 								<TouchableOpacity style={styles.verticalSlot}>
-									<Text style={styles.slotText}>A48</Text>
+									<Text style={styles.slotText}>C16</Text>
 								</TouchableOpacity>
 							</View>
 						</View>
