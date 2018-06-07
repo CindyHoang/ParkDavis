@@ -29,6 +29,8 @@ const LoginForm = ({ navigation }) => {
 					style={styles.buttonContainer}>
 					<Text style={styles.buttonText}>LOGIN</Text>
 				</TouchableOpacity>
+
+				<Text onPress={() => navigation.navigate('HomeScreen')} style={styles.reg}>SIGN UP</Text>
 			</View>
 		);
 }
@@ -48,12 +50,18 @@ const styles = StyleSheet.create({
 	buttonContainer: {
 		backgroundColor: 'rgba(235,149,50,1)',
 		paddingVertical: 15,
-		borderRadius: 10
+		borderRadius: 10,
+		marginBottom: 10
 	},
 	buttonText: {
 		textAlign: 'center',
 		color: 'white',
 		fontWeight: '700'
+	},
+	reg: {
+		color: '#EB9532',
+		textAlign: 'center',
+		fontWeight: 'bold'
 	}
 });
 

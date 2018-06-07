@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import MuMap from './Map';
 import { StackNavigator } from 'react-navigation';
 
@@ -24,17 +24,31 @@ export default class Mu extends Component {
 					<Text style={styles.selectionSubtitle}>Nearby spots available:</Text>
 
 					<View style={styles.spotContainer}>
-						<TouchableOpacity style={styles.buttonContainer}>
-							<Text style={styles.buttonText}>Spot 1</Text>
-						</TouchableOpacity>
+						<ScrollView horizontal={true}>
+							<TouchableOpacity style={styles.buttonContainer}>
+								<Text style={styles.buttonText}>Spot 1</Text>
+							</TouchableOpacity>
 
-						<TouchableOpacity style={styles.buttonContainer}>
-							<Text style={styles.buttonText}>Spot 2</Text>
-						</TouchableOpacity>
+							<TouchableOpacity style={styles.buttonContainer}>
+								<Text style={styles.buttonText}>Spot 2</Text>
+							</TouchableOpacity>
 
-						<TouchableOpacity style={styles.buttonContainer}>
-							<Text style={styles.buttonText}>Spot 3</Text>
-						</TouchableOpacity>
+							<TouchableOpacity style={styles.buttonContainer}>
+								<Text style={styles.buttonText}>Spot 3</Text>
+							</TouchableOpacity>
+
+							<TouchableOpacity style={styles.buttonContainer}>
+								<Text style={styles.buttonText}>Spot 1</Text>
+							</TouchableOpacity>
+
+							<TouchableOpacity style={styles.buttonContainer}>
+								<Text style={styles.buttonText}>Spot 2</Text>
+							</TouchableOpacity>
+
+							<TouchableOpacity style={styles.buttonContainer}>
+								<Text style={styles.buttonText}>Spot 3</Text>
+							</TouchableOpacity>
+						</ScrollView>
 					</View>
 				</View>
 			</View>

@@ -12,7 +12,7 @@ export default class Home extends Component {
 					<TouchableOpacity
 						onPress={() => this.props.navigation.navigate('MuScreen')}
 						style={styles.buttonContainer}>
-						<Text style={styles.buttonText}>Mu</Text>
+						<Text style={styles.buttonText}>Memorial Union</Text>
 						<View style={styles.informationContainer}>
 							<Text style={styles.informationText1}>70%</Text>
 							<Text style={styles.informationText1}>Full</Text>
@@ -22,7 +22,7 @@ export default class Home extends Component {
 					<TouchableOpacity
 						onPress={() => this.props.navigation.navigate('ArcScreen')}
 						style={styles.buttonContainer}>
-						<Text style={styles.buttonText}>Arc</Text>
+						<Text style={styles.buttonText}>ARC</Text>
 						<View style={styles.informationContainer}>
 							<Text style={styles.informationText1}>60%</Text>
 							<Text style={styles.informationText1}>Full</Text>
@@ -64,7 +64,8 @@ const styles = StyleSheet.create({
 		textAlign: 'center',
 		color: '#000000',
 		fontWeight: '600',
-		fontSize: 30
+		fontSize: 30,
+		opacity: 0.8
 	},
 	title: {
 		color: 'white',
